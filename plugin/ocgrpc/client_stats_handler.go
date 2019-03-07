@@ -18,7 +18,7 @@ package ocgrpc
 import (
 	"time"
 
-	"go.opencensus.io/tag"
+	"github.com/donners/opencensus-go/tag"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc/grpclog"
 	"google.golang.org/grpc/stats"

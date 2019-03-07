@@ -28,11 +28,11 @@ import (
 
 	"net/http"
 
-	"go.opencensus.io/exporter/prometheus"
-	"go.opencensus.io/stats"
-	"go.opencensus.io/stats/view"
-	"go.opencensus.io/tag"
-	"go.opencensus.io/zpages"
+	"github.com/donners/opencensus-go/exporter/prometheus"
+	"github.com/donners/opencensus-go/stats"
+	"github.com/donners/opencensus-go/stats/view"
+	"github.com/donners/opencensus-go/tag"
+	"github.com/donners/opencensus-go/zpages"
 )
 
 var (

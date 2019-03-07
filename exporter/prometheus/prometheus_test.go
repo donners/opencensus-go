@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"go.opencensus.io/stats"
-	"go.opencensus.io/stats/view"
-	"go.opencensus.io/tag"
+	"github.com/donners/opencensus-go/stats"
+	"github.com/donners/opencensus-go/stats/view"
+	"github.com/donners/opencensus-go/tag"
 
 	"github.com/prometheus/client_golang/prometheus"
 )

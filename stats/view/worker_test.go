@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"go.opencensus.io/stats"
-	"go.opencensus.io/tag"
+	"github.com/donners/opencensus-go/stats"
+	"github.com/donners/opencensus-go/tag"
 )
 
 func Test_Worker_ViewRegistration(t *testing.T) {

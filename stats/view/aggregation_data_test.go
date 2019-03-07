@@ -22,7 +22,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"go.opencensus.io/exemplar"
+	"github.com/donners/opencensus-go/exemplar"
 )
 
 func TestDataClone(t *testing.T) {

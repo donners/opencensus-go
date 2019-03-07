@@ -17,8 +17,8 @@ package jaeger_test
 import (
 	"log"
 
-	"go.opencensus.io/exporter/jaeger"
-	"go.opencensus.io/trace"
+	"github.com/donners/opencensus-go/exporter/jaeger"
+	"github.com/donners/opencensus-go/trace"
 )
 
 func ExampleNewExporter_collector() {

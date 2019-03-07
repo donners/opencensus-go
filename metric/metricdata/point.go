@@ -17,7 +17,7 @@ package metricdata
 import (
 	"time"
 
-	"go.opencensus.io/exemplar"
+	"github.com/donners/opencensus-go/exemplar"
 )
 
 // Point is a single data point of a time series.

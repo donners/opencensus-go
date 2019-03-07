@@ -13,7 +13,7 @@
 // limitations under the License.
 
 // Package jaeger contains an OpenCensus tracing exporter for Jaeger.
-package jaeger // import "go.opencensus.io/exporter/jaeger"
+package jaeger // import "github.com/donners/opencensus-go/exporter/jaeger"
 
 import (
 	"bytes"
@@ -26,8 +26,8 @@ import (
 	"net/http"
 
 	"git.apache.org/thrift.git/lib/go/thrift"
-	gen "go.opencensus.io/exporter/jaeger/internal/gen-go/jaeger"
-	"go.opencensus.io/trace"
+	gen "github.com/donners/opencensus-go/exporter/jaeger/internal/gen-go/jaeger"
+	"github.com/donners/opencensus-go/trace"
 	"google.golang.org/api/support/bundler"
 )
 

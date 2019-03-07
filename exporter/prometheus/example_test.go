@@ -18,8 +18,8 @@ import (
 	"log"
 	"net/http"
 
-	"go.opencensus.io/exporter/prometheus"
-	"go.opencensus.io/stats/view"
+	"github.com/donners/opencensus-go/exporter/prometheus"
+	"github.com/donners/opencensus-go/stats/view"
 )
 
 func Example() {

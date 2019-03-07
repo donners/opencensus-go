@@ -18,14 +18,14 @@ package ocgrpc
 import (
 	"testing"
 
-	"go.opencensus.io/trace"
+	"github.com/donners/opencensus-go/trace"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
 	"golang.org/x/net/context"
 
-	"go.opencensus.io/stats/view"
-	"go.opencensus.io/tag"
+	"github.com/donners/opencensus-go/stats/view"
+	"github.com/donners/opencensus-go/tag"
 
 	"google.golang.org/grpc/stats"
 )

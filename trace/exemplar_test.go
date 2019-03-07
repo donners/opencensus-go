@@ -18,9 +18,9 @@ import (
 	"context"
 	"testing"
 
-	"go.opencensus.io/stats"
-	"go.opencensus.io/stats/view"
-	"go.opencensus.io/trace"
+	"github.com/donners/opencensus-go/stats"
+	"github.com/donners/opencensus-go/stats/view"
+	"github.com/donners/opencensus-go/trace"
 )
 
 func TestTraceExemplar(t *testing.T) {

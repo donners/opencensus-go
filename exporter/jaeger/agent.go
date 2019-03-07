@@ -20,7 +20,7 @@ import (
 	"net"
 
 	"git.apache.org/thrift.git/lib/go/thrift"
-	gen "go.opencensus.io/exporter/jaeger/internal/gen-go/jaeger"
+	gen "github.com/donners/opencensus-go/exporter/jaeger/internal/gen-go/jaeger"
 )
 
 // udpPacketMaxLength is the max size of UDP packet we want to send, synced with jaeger-agent

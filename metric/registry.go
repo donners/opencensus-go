@@ -15,7 +15,7 @@
 package metric
 
 import (
-	"go.opencensus.io/metric/metricdata"
+	"github.com/donners/opencensus-go/metric/metricdata"
 	"log"
 	"time"
 )

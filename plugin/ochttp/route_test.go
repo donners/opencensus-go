@@ -20,9 +20,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"go.opencensus.io/plugin/ochttp"
-	"go.opencensus.io/stats/view"
-	"go.opencensus.io/tag"
+	"github.com/donners/opencensus-go/plugin/ochttp"
+	"github.com/donners/opencensus-go/stats/view"
+	"github.com/donners/opencensus-go/tag"
 )
 
 func TestWithRouteTag(t *testing.T) {

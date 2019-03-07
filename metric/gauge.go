@@ -20,8 +20,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.opencensus.io/internal/tagencoding"
-	"go.opencensus.io/metric/metricdata"
+	"github.com/donners/opencensus-go/internal/tagencoding"
+	"github.com/donners/opencensus-go/metric/metricdata"
 )
 
 // gauge represents a quantity that can go up an down, for example queue depth

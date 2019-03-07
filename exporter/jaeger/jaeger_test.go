@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	gen "go.opencensus.io/exporter/jaeger/internal/gen-go/jaeger"
-	"go.opencensus.io/trace"
+	gen "github.com/donners/opencensus-go/exporter/jaeger/internal/gen-go/jaeger"
+	"github.com/donners/opencensus-go/trace"
 	"sort"
 )
 

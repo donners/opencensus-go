@@ -18,7 +18,7 @@ package tag
 import (
 	"context"
 
-	"go.opencensus.io/exemplar"
+	"github.com/donners/opencensus-go/exemplar"
 )
 
 // FromContext returns the tag map stored in the context.

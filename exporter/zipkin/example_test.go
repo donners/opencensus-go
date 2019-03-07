@@ -19,15 +19,15 @@ import (
 
 	openzipkin "github.com/openzipkin/zipkin-go"
 	"github.com/openzipkin/zipkin-go/reporter/http"
-	"go.opencensus.io/exporter/zipkin"
-	"go.opencensus.io/trace"
+	"github.com/donners/opencensus-go/exporter/zipkin"
+	"github.com/donners/opencensus-go/trace"
 )
 
 func Example() {
 	// import (
 	//     openzipkin "github.com/openzipkin/zipkin-go"
 	//     "github.com/openzipkin/zipkin-go/reporter/http"
-	//     "go.opencensus.io/exporter/trace/zipkin"
+	//     "github.com/donners/opencensus-go/exporter/trace/zipkin"
 	// )
 
 	localEndpoint, err := openzipkin.NewEndpoint("server", "192.168.1.5:5454")

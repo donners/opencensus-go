@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"go.opencensus.io/internal/testpb"
-	"go.opencensus.io/trace"
+	"github.com/donners/opencensus-go/internal/testpb"
+	"github.com/donners/opencensus-go/trace"
 	"golang.org/x/net/context"
 )
 

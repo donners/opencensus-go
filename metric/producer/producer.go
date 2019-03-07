@@ -15,7 +15,7 @@
 package producer
 
 import (
-	"go.opencensus.io/metric/metricdata"
+	"github.com/donners/opencensus-go/metric/metricdata"
 )
 
 // Producer is a source of metrics.

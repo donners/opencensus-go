@@ -27,8 +27,8 @@ OpenCensus Go libraries require Go 1.8 or later.
 The easiest way to get started using OpenCensus in your application is to use an existing
 integration with your RPC framework:
 
-* [net/http](https://godoc.org/go.opencensus.io/plugin/ochttp)
-* [gRPC](https://godoc.org/go.opencensus.io/plugin/ocgrpc)
+* [net/http](https://godoc.org/github.com/donners/opencensus-go/plugin/ochttp)
+* [gRPC](https://godoc.org/github.com/donners/opencensus-go/plugin/ocgrpc)
 * [database/sql](https://godoc.org/github.com/opencensus-integrations/ocsql)
 * [Go kit](https://godoc.org/github.com/go-kit/kit/tracing/opencensus)
 * [Groupcache](https://godoc.org/github.com/orijtech/groupcache)
@@ -46,8 +46,8 @@ framework or use [custom stats](#stats) and [spans](#spans) directly in your app
 OpenCensus can export instrumentation data to various backends.
 OpenCensus has exporter implementations for the following, users
 can implement their own exporters by implementing the exporter interfaces
-([stats](https://godoc.org/go.opencensus.io/stats/view#Exporter),
-[trace](https://godoc.org/go.opencensus.io/trace#Exporter)):
+([stats](https://godoc.org/github.com/donners/opencensus-go/stats/view#Exporter),
+[trace](https://godoc.org/github.com/donners/opencensus-go/trace#Exporter)):
 
 * [Prometheus][exporter-prom] for stats
 * [OpenZipkin][exporter-zipkin] for traces
@@ -195,10 +195,10 @@ defer span.End()
 Across the network, OpenCensus provides different propagation
 methods for different protocols.
 
-* gRPC integrations use the OpenCensus' [binary propagation format](https://godoc.org/go.opencensus.io/trace/propagation).
+* gRPC integrations use the OpenCensus' [binary propagation format](https://godoc.org/github.com/donners/opencensus-go/trace/propagation).
 * HTTP integrations use Zipkin's [B3](https://github.com/openzipkin/b3-propagation)
   by default but can be configured to use a custom propagation method by setting another
-  [propagation.HTTPFormat](https://godoc.org/go.opencensus.io/trace/propagation#HTTPFormat).
+  [propagation.HTTPFormat](https://godoc.org/github.com/donners/opencensus-go/trace/propagation#HTTPFormat).
 
 ## Execution Tracer
 
@@ -250,13 +250,13 @@ release in which the functionality was marked *Deprecated*.
 [gitter-url]: https://gitter.im/census-instrumentation/lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 
 
-[new-ex]: https://godoc.org/go.opencensus.io/tag#example-NewMap
-[new-replace-ex]: https://godoc.org/go.opencensus.io/tag#example-NewMap--Replace
+[new-ex]: https://godoc.org/github.com/donners/opencensus-go/tag#example-NewMap
+[new-replace-ex]: https://godoc.org/github.com/donners/opencensus-go/tag#example-NewMap--Replace
 
-[exporter-prom]: https://godoc.org/go.opencensus.io/exporter/prometheus
-[exporter-stackdriver]: https://godoc.org/contrib.go.opencensus.io/exporter/stackdriver
-[exporter-zipkin]: https://godoc.org/go.opencensus.io/exporter/zipkin
-[exporter-jaeger]: https://godoc.org/go.opencensus.io/exporter/jaeger
+[exporter-prom]: https://godoc.org/github.com/donners/opencensus-go/exporter/prometheus
+[exporter-stackdriver]: https://godoc.org/contrib.github.com/donners/opencensus-go/exporter/stackdriver
+[exporter-zipkin]: https://godoc.org/github.com/donners/opencensus-go/exporter/zipkin
+[exporter-jaeger]: https://godoc.org/github.com/donners/opencensus-go/exporter/jaeger
 [exporter-xray]: https://github.com/census-ecosystem/opencensus-go-exporter-aws
 [exporter-datadog]: https://github.com/DataDog/opencensus-go-exporter-datadog
 [exporter-graphite]: https://github.com/census-ecosystem/opencensus-go-exporter-graphite

@@ -17,7 +17,7 @@ package producer
 import (
 	"testing"
 
-	"go.opencensus.io/metric/metricdata"
+	"github.com/donners/opencensus-go/metric/metricdata"
 )
 
 type testProducer struct {

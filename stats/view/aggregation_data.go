@@ -18,7 +18,7 @@ package view
 import (
 	"math"
 
-	"go.opencensus.io/exemplar"
+	"github.com/donners/opencensus-go/exemplar"
 )
 
 // AggregationData represents an aggregated value from a collection.

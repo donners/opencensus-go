@@ -23,9 +23,9 @@ import (
 	"net/http"
 	"time"
 
-	"go.opencensus.io/exporter/prometheus"
-	"go.opencensus.io/stats"
-	"go.opencensus.io/stats/view"
+	"github.com/donners/opencensus-go/exporter/prometheus"
+	"github.com/donners/opencensus-go/stats"
+	"github.com/donners/opencensus-go/stats/view"
 )
 
 // Create measures. The program will record measures for the size of

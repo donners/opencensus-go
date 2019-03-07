@@ -18,10 +18,10 @@ package view
 import (
 	"sort"
 
-	"go.opencensus.io/exemplar"
+	"github.com/donners/opencensus-go/exemplar"
 
-	"go.opencensus.io/internal/tagencoding"
-	"go.opencensus.io/tag"
+	"github.com/donners/opencensus-go/internal/tagencoding"
+	"github.com/donners/opencensus-go/tag"
 )
 
 type collector struct {

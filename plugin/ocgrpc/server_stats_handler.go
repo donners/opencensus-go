@@ -20,7 +20,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"go.opencensus.io/tag"
+	"github.com/donners/opencensus-go/tag"
 	"google.golang.org/grpc/grpclog"
 	"google.golang.org/grpc/stats"
 )

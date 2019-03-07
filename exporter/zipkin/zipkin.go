@@ -13,7 +13,7 @@
 // limitations under the License.
 
 // Package zipkin contains an trace exporter for Zipkin.
-package zipkin // import "go.opencensus.io/exporter/zipkin"
+package zipkin // import "github.com/donners/opencensus-go/exporter/zipkin"
 
 import (
 	"encoding/binary"
@@ -21,7 +21,7 @@ import (
 
 	"github.com/openzipkin/zipkin-go/model"
 	"github.com/openzipkin/zipkin-go/reporter"
-	"go.opencensus.io/trace"
+	"github.com/donners/opencensus-go/trace"
 )
 
 // Exporter is an implementation of trace.Exporter that uploads spans to a

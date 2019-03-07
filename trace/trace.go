@@ -24,8 +24,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.opencensus.io/internal"
-	"go.opencensus.io/trace/tracestate"
+	"github.com/donners/opencensus-go/internal"
+	"github.com/donners/opencensus-go/trace/tracestate"
 )
 
 // Span represents a span of a trace.  It has an associated SpanContext, and

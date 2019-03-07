@@ -14,7 +14,7 @@
 
 // Package prometheus contains a Prometheus exporter that supports exporting
 // OpenCensus views as Prometheus metrics.
-package prometheus // import "go.opencensus.io/exporter/prometheus"
+package prometheus // import "github.com/donners/opencensus-go/exporter/prometheus"
 
 import (
 	"bytes"
@@ -24,9 +24,9 @@ import (
 	"sort"
 	"sync"
 
-	"go.opencensus.io/internal"
-	"go.opencensus.io/stats/view"
-	"go.opencensus.io/tag"
+	"github.com/donners/opencensus-go/internal"
+	"github.com/donners/opencensus-go/stats/view"
+	"github.com/donners/opencensus-go/tag"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"

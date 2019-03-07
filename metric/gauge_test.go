@@ -16,7 +16,7 @@ package metric
 
 import (
 	"fmt"
-	"go.opencensus.io/metric/metricdata"
+	"github.com/donners/opencensus-go/metric/metricdata"
 	"sort"
 	"testing"
 	"time"

@@ -19,11 +19,11 @@ import (
 	"net/http"
 	"time"
 
-	"go.opencensus.io/plugin/ochttp"
-	"go.opencensus.io/trace"
+	"github.com/donners/opencensus-go/plugin/ochttp"
+	"github.com/donners/opencensus-go/trace"
 
-	"go.opencensus.io/examples/exporter"
-	"go.opencensus.io/stats/view"
+	"github.com/donners/opencensus-go/examples/exporter"
+	"github.com/donners/opencensus-go/stats/view"
 )
 
 const server = "http://localhost:50030"

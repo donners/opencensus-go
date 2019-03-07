@@ -18,7 +18,7 @@ import (
 	"context"
 	"encoding/hex"
 
-	"go.opencensus.io/exemplar"
+	"github.com/donners/opencensus-go/exemplar"
 )
 
 func init() {
