@@ -9,7 +9,7 @@ require (
 	github.com/golang/protobuf v1.2.0
 	github.com/google/go-cmp v0.2.0
 	github.com/grpc-ecosystem/grpc-gateway v1.6.2 // indirect
-	github.com/hashicorp/golang-lru v0.5.0
+	github.com/hashicorp/golang-lru v0.5.4
 	github.com/matttproud/golang_protobuf_extensions v1.0.1
 	github.com/openzipkin/zipkin-go v0.1.3
 	github.com/prometheus/client_golang v0.9.3-0.20190127221311-3c4408c8b829
