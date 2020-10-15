@@ -6,8 +6,8 @@ require (
 	github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/golang/mock v1.2.0 // indirect
-	github.com/golang/protobuf v1.2.0
-	github.com/google/go-cmp v0.2.0
+	github.com/golang/protobuf v1.4.3
+	github.com/google/go-cmp v0.4.0
 	github.com/grpc-ecosystem/grpc-gateway v1.6.2 // indirect
 	github.com/hashicorp/golang-lru v0.5.0
 	github.com/matttproud/golang_protobuf_extensions v1.0.1
