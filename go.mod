@@ -2,7 +2,7 @@ module go.opencensus.io
 
 require (
 	cloud.google.com/go v0.34.0 // indirect
-	git.apache.org/thrift.git v0.12.0
+	git.apache.org/thrift.git v0.14.1
 	github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/golang/mock v1.2.0 // indirect
