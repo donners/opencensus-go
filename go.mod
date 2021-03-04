@@ -7,7 +7,7 @@ require (
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/golang/mock v1.2.0 // indirect
 	github.com/golang/protobuf v1.2.0
-	github.com/google/go-cmp v0.2.0
+	github.com/google/go-cmp v0.5.5
 	github.com/grpc-ecosystem/grpc-gateway v1.6.2 // indirect
 	github.com/hashicorp/golang-lru v0.5.0
 	github.com/matttproud/golang_protobuf_extensions v1.0.1
